@@ -1,0 +1,35 @@
+{
+  "name": "generator-example",
+  "version": "1.0.0",
+  "description": "example using yeoman",
+  "main": "index.js",
+  "scripts": {
+    "crud": "cd .. && mkdir crud-generator-example && cd crud-generator-example && yo ../generator-example/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValchanOficial/YeomanExample.git"
+  },
+  "author": "Valéria Padilha de Vargas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ValchanOficial/YeomanExample/issues"
+  },
+  "homepage": "https://github.com/ValchanOficial/YeomanExample#readme",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "yeoman-generator": "^5.2.0",
+    "yosay": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=14.16.1",
+    "npm": ">=7.10.0"
+  }
+}
